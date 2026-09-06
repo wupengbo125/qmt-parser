@@ -1,9 +1,9 @@
 /target
 Cargo.lock
+
+AGENTS.md
+CLAUDE.md
 .agents/
 .claude/
 .ua/
 .pi/
-
-AGENTS.md
-CLAUDE.md
