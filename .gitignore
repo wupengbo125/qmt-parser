@@ -4,3 +4,6 @@ Cargo.lock
 .claude/
 .ua/
 .pi/
+
+AGENTS.md
+CLAUDE.md
