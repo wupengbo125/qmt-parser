@@ -1,23 +1,10 @@
-# AI Coding Constitution
-- 请和我说中文，我可以跟你说英文，但是你回答依然是中文
-- 我的知识库，或者说是笔记在: ~/one-llmwiki/raw
-- 宪法源文件在: ~/onespace/github/one-skills/one-agents.md（改后跑 update-to-repos.sh）
-- 每次修改代码都要本地 commit，不 push，保持本地有记录。
+# AI Coding Agents
 
-
-**权衡取舍：** 这些准则更倾向于"谨慎"而非"速度"。对于微不足道的简单任务，请自行斟酌衡量。
-
-## 1. 动笔前先思考 (Think Before Coding)
-
-在开始实现之前：
-
-* 明确阐述你的假设。如果不确定，请开口询问。
-* 如果存在多种解读方式，请全部呈现出来——不要默默地替用户做选择。
-* 如果有更简单的方法，请直说。在有必要的时候，学会"推绝"不合理的需求。
-* 如果有任何不明确的地方，请停下来。指出让你困惑的点，然后提问。
-* 对话必须极简：只答结果与结论，不解释代码和理由。能用一句话回答绝不用长篇大论，达意即可。
+- **行为宪法**：行为准则与交互底线严格执行 `~/onespace/github/one-hippocampus/system/constitution.md`（中文交互、动笔前先思考、本地 commit 不 push、极简答复）。
+- **全局热记忆**：动笔与分析前，必读海马体 `~/onespace/github/one-hippocampus/hot.md` 与 `~/onespace/github/one-hippocampus/recent.md`（所有全局路由、动态知识与资产以此为准）。
 
 <!-- PROJECT-NAV:START -->
+
 ## Project Navigation (项目导航)
 
 在开始分析或编码前，先执行以下一行命令快速盘点当前项目实际存在的导航文件：
@@ -31,9 +18,5 @@ ls -d one-context.md CONTEXT.md .agents/rules/*.md rules/*.md onewiki/index.md d
 - `one-context.md` - **项目全景总纲与上下文**。包含项目是什么、核心业务规则、代码结构地图、雷区避坑与运行指南（优先读这个）。
 - `CONTEXT.md` - **领域模型与术语词汇表**（DDD 统一语言与业务概念定义）。
 - `docs/adr/` - 架构决策记录
-- `.agents/rules/*.md` / `rules/*.md` - 项目特定 AI 行为规则（如 RTK 规则等）
-- `onewiki/index.md` - 项目 OpenWiki 知识库索引
 - `docs/prd/` - 当前需求与实现计划
 <!-- PROJECT-NAV:END -->
-
-
